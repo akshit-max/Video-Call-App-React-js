@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ======== main container =========== */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ======== foooter ==================== */
+footer {
+  background-color: #282828;
+  color: #c5aa6a;
+  padding: 20px 0px;
+  text-align: center;
+}
+/* ========= header ====================== */
+header {
+  background-color: #282828;
+  color: #c5aa6a;
+  padding: 20px 0px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* ========= home ================= */
+.hero {
+  color: white;
+  position: relative;
+  width: 100%;
+}
+.hero .container {
+  background-color: #2f26268e;
+  padding: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+.hero-overly {
+  background-image: url("https://img.freepik.com/free-photo/team-meeting-online-conference-call_23-2148890422.jpg?t=st=1742462560~exp=1742466160~hmac=16dbe4752ce0dc27e49cdb41492a195f5c102b7ef43a3fb2bec4b5c7832a78a2&w=1380");
+  background-size: contain;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ed6103;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.cta-button:hover {
+  background-color: #cc5200;
+}
+
+/* ============ room =============== */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container input[type="text"] {
+  border: 2px solid #282828;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 10px;
+  width: 200px;
+}
+
+.form-container button {
+  width: 120px;
+  height: 30px;
+  background-color: #282828;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #282828ca;
+  color: white;
+}
