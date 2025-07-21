@@ -60,7 +60,8 @@ header nav ul li a {
 .hero-overly {
   background-image: url("https://img.freepik.com/free-photo/team-meeting-online-conference-call_23-2148890422.jpg?t=st=1742462560~exp=1742466160~hmac=16dbe4752ce0dc27e49cdb41492a195f5c102b7ef43a3fb2bec4b5c7832a78a2&w=1380");
   background-size: contain;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
   height: 85vh;
   display: flex;
   align-items: center;
